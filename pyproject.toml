@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "barti-app"
+version = "0.1.0"
+description = "Rafael's barti-app"
+authors = ["rafaelosoto <rafaelsotoengineering@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+blinker = "1.6.2"
+click = "8.1.3"
+flask = "2.3.2"
+flask-sqlalchemy = "3.0.3"
+iniconfig = "1.1.1"
+itsdangerous = "2.1.2"
+jinja2 = "3.1.2"
+markupsafe = "2.1.3"
+marshmallow = "3.14.1"
+packaging = "23.1"
+pluggy = "1.0.0"
+py = "1.11.0"
+pyparsing = "3.0.7"
+sqlalchemy = "1.4.28"
+toml = "0.10.2"
+typing-extensions = "4.0.1"
+webargs = "8.2.0"
+werkzeug = "2.3.4"
+zipp = "3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
